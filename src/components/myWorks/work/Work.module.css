@@ -1,0 +1,20 @@
+.container {
+    width: 40%;
+    border: 1px solid;
+}
+
+.image {
+
+}
+
+.image img {
+    width: 100%;
+}
+
+.workName {
+    padding: 5px 15px;
+}
+
+.text {
+    padding: 0px 15px;
+}

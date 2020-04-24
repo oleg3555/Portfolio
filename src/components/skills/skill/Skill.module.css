@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: normal;
+    align-items: inherit;
+    width: 20%;
+}
+
+.image {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    width: 100px;
+    height: 90px;
+}
+
+.name {
+    height: 10%;
+    text-align: center;
+}
+

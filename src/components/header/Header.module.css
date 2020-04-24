@@ -1,0 +1,12 @@
+.header{
+    display: flex;
+    height: 70px;
+    background-color: #b9ffec;
+    justify-content: center;
+}
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

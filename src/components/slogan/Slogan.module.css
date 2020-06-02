@@ -1,4 +1,27 @@
 .slogan{
-    height: 250px;
+    min-height: 250px;
     background-color: #fffdd5;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+}
+.container{
+    width: 80%;
+    padding: 60px 0;
+}
+.header{
+    text-align: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+.btn{
+    height: 70px;
+    width: 200px;
+    background-color: yellowgreen;
+    border-radius: 20px;
+    outline: none;
 }

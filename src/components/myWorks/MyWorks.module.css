@@ -1,6 +1,5 @@
 .myWorks {
     min-height: 100vh;
-    height: 100vh;
     background-color: #c095ff;
     display: flex;
     justify-content: center;
@@ -8,18 +7,33 @@
 }
 
 .container {
-    border: 1px solid;
     width: 80%;
-    height: 80%;
+    padding: 60px 0;
 }
 
 .header {
-    border: 1px solid;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    text-align: center;
+    padding: 25px 0 0 0;
 }
 
 .main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 0 60px 0;
+}
 
+
+
+
+@media screen and (max-width: 750px){
+    .container{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 1399px) {
+    .main {
+        justify-content: center;
+    }
 }

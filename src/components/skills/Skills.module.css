@@ -1,5 +1,5 @@
 .skills {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #b0ff9e;
     display: flex;
     justify-content: center;
@@ -7,27 +7,28 @@
 }
 
 .container {
-    border: 1px solid;
     width: 80%;
-    height: 80%;
     display: flex;
     flex-direction: column;
     align-items: normal;
+    padding: 60px 0;
 }
 
 .header {
-    border: 1px solid;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
 .abilities {
-    height: 100%;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.skill{
-    border: 1px solid;
+
+@media screen and (max-width: 750px) {
+    .container{
+        width: 95%;
+    }
 }
